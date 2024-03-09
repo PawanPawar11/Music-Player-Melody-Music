@@ -1,0 +1,48 @@
+.scrollTop{
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background: #fff url(arrow-up.png);
+    border-radius: 50%;
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 100000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.scrollTop.active{
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}
+
+#services {
+    float: right;
+    margin-top: 23%;
+}
+
+#services2 {
+    float: right;
+}
+
+#services3 {
+    margin-right: 30px;
+    float: left;
+}
+
+#services4 {
+    float: right;
+}
+
+#services5 {
+    float: right;
+}
+
+.Redirect_Pages1 {
+    font-size: 18px;
+}
